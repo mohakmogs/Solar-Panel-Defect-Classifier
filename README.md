@@ -76,30 +76,74 @@ Solar-Panel-Defect-Classifier/
 
 ## 🚀 Getting Started
 
-### Clone Repository
+Follow these steps to set up and run the project locally.
+
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/mohakmogs/Solar-Panel-Defect-Classifier.git
 cd Solar-Panel-Defect-Classifier
 ```
 
-### Install Dependencies
+---
+
+### 2️⃣ Create a Virtual Environment
+
+**Windows**
+
+```bash
+python -m venv myenv
+myenv\Scripts\activate
+```
+
+**Linux / macOS**
+
+```bash
+python3 -m venv myenv
+source myenv/bin/activate
+```
+
+---
+
+### 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run
+---
 
-Open
+### 4️⃣ Run the Streamlit Application
+
+```bash
+streamlit run app.py
+```
+
+The application will open automatically in your default web browser.
+
+---
+
+### 5️⃣ Explore the Model Training Code
+
+If you want to understand or retrain the deep learning model, open the Jupyter notebook:
 
 ```
 Solar_Panel_Classification.ipynb
 ```
 
-using Jupyter Notebook or Google Colab.
+You can run it using:
 
----
+- 📒 Google Colab (Recommended)
+- 📓 Jupyter Notebook
+- 💻 JupyterLab
+
+The notebook includes:
+- Data preprocessing
+- CNN model implementation
+- Transfer Learning (MobileNetV2 & EfficientNet)
+- Model training
+- Hyperparameter tuning
+- Performance evaluation and visualization
 
 ## 📈 Workflow
 
@@ -148,8 +192,8 @@ Evaluation & Visualization
 
 **Mohak Pandey**
 
-- GitHub: https://github.com/mohakmogs
-- LinkedIn: *(Add your LinkedIn URL here)*
+- GitHub: *https://github.com/mohakmogs*
+- LinkedIn: *www.linkedin.com/in/mohak-pandey-215810341*
 
 ---
 
